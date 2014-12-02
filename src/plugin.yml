@@ -1,26 +1,26 @@
-name: DiscoArmor
-version: 2.4.2
-author: LualZockt
-website: http://dev.bukkit.org/bukkit-plugins/discoarmor
+name: EpilepsyHat
+version: 1.0.0
+author: rkomonkey2
+website: 
 main: de.lualzockt.DiscoArmor.DiscoArmor
 
 commands:
-  discoarmor:
-    description: Disco Armor
-    aliases: [da]
+  epilepsyhat:
+    description: epilepsy hat
+    aliases: [eh]
     
     
 permissions:
-  discoarmor.*:
-    description: Gives access to all DiscoArmor commands.
+  eh.*:
+    description: Gives access to all Epilepsy Hat commands.
     children:
-      discoarmor.toggle: true
+      wh.toggle: true
       disocarmor.help: true
       discoarmor.info: true
       discoarmor.reload: true
-      discoarmor.toggleothers: true
-  discoarmor.toggle:
-    description: Toggles your DiscoArmor-Mode
+      epilepsyhat.toggleothers: true
+  epilepsyhat.toggle:
+    description: Toggles your Epilepsy-Mode
   discoarmor.help:
     description: Permission to see the help
     default: true
